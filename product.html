@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="cmsmagazine" content="ca39d125c1197307aff2bcc10f36b889">
+    <link rel="stylesheet" href="css/magnific-popup.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" media="all"
+        onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/style.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/style-media.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="css/fonts.css" media="all" onload="if(media!='all')media='all'">
+    <noscript>
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-media.css">
+        <link rel="stylesheet" href="css/fonts.css">
+    </noscript>
+    <script src="https://code.jquery.com/jquery-1.8.2.js"
+        integrity="sha256-z6aVFjdeJ+VlGcrnHyiBjg5SUVtw5wWmANHbRZmYM1o=" crossorigin="anonymous"></script>
+    <title>Продажа спецодежды</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap container">
+            <div class="header__left"><a class="header__logo" href="./"><img src="img/logо.png" alt=""></a></div>
+            <div class="header__right">
+                <div class="header__top">
+                    <div class="header__time grey-text"><span> пн-пт 9:00-19:00</span></div>
+                    <div><a class="header__mail grey-text trans-dur" href="mailto:info@moisiz.ru">
+                            <span>info@moisiz.ru</span></a></div>
+                    <div>
+                        <button class="header__button grey-text trans-dur popup" href="#call-back">Заказать
+                            звонок</button>
+                    </div><a class="header__phone trans-dur" href="tel:+74951234567">+7 (495) 123-45-67</a>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__search">
+                        <form class="h-search">
+                            <div class="h-search__wrap">
+                                <input class="h-search__input grey-text" type="search" placeholder="Поиск">
+                                <button class="h-search__send" type="submit"></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header__basket">
+                        <div class="h-basket"> <span>Ваша корзина:
+                                <div class="red">товаров <span>(0)</span></div>
+                            </span>
+                            <div class="count">22</div>
+                        </div>
+                        <div class="basket-content" style="display:none;">
+                            <div class="basket-item">
+                                <div class="basket-item__photo"><img src="img/product-pic.jpg" alt=""></div>
+                                <div class="basket-item__body"><a class="prod-name" href="./">Костюм зимний Партнер NEW,
+                                        серый/красный</a>
+                                    <div class="prod-articule">Артикул:<span class="value">87469198</span></div>
+                                </div>
+                                <div class="basket-item__remove"></div>
+                            </div>
+                            <div class="basket-item">
+                                <div class="basket-item__photo"><img src="img/product-pic.jpg" alt=""></div>
+                                <div class="basket-item__body"><a class="prod-name" href="./">Костюм зимний Партнер NEW,
+                                        серый/красный</a>
+                                    <div class="prod-articule">Артикул:<span class="value">87469198</span></div>
+                                </div>
+                                <div class="basket-item__remove"></div>
+                            </div>
+                            <div class="basket-item">
+                                <div class="basket-item__photo"><img src="img/product-pic.jpg" alt=""></div>
+                                <div class="basket-item__body"><a class="prod-name" href="./">Костюм зимний Партнер NEW,
+                                        серый/красный</a>
+                                    <div class="prod-articule">Артикул:<span class="value">87469198</span></div>
+                                </div>
+                                <div class="basket-item__remove"></div>
+                            </div>
+                            <div class="basket-content__button">
+                                <button class="popup add-to-basket" href="#make-order">Оформить заказ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <nav class="menu">
+            <div class="menu__wrap justify-end container">
+                <ul class="menu__m-menu m-menu">
+                    <li class="m-menu__item"><a class="m-menu__link" href="./">Главная</a></li>
+                    <li class="m-menu__item"><a class="m-menu__link" href="./about-company.html">О нас</a></li>
+                    <li class="m-menu__item"><a class="m-menu__link" href="./payment.html">Оплата и доставка</a></li>
+                    <li class="m-menu__item"><a class="m-menu__link" href="./contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="page-content">
+            <div class="page-content__wrap container">
+                <div class="page-content__left">
+                    <div class="menu__sidebar sidebar absoluted">
+                        <div class="sidebar__head"> <span>Каталог товаров</span></div>
+                        <ul class="sidebar__menu sidebar-menu">
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category1">Спецодежда
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category2">Спецобувь
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category3">СИЗ
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category4">Защита рук
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category5">Хозтовары / Инвентарь
+                                    /<br>Мебель
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category6">Текстиль / Мягкий Инвентарь
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link" href="#">Комплекты постельного
+                                            белья</a></li>
+                                    <li class="cat-menu__item with-ul"><a class="cat-menu__link"
+                                            href="./category.html">Полотенца</a>
+                                        <ul class="subcat-menu">
+                                            <li class="subcat-menu__item"><a class="subcat-menu__link"
+                                                    href="./category.html">Полотенца вафельные</a></li>
+                                            <li class="subcat-menu__item"><a class="subcat-menu__link"
+                                                    href="./category.html">Полотенца махровые</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Одеяла/Покрывала</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подушки</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Отдельные постельные предметы</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Матрасы</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu__item with-ul">
+                                <div class="sidebar-menu__link trans-dur" id="category7">Распродажа
+                                    <div class="icon-left"></div>
+                                </div>
+                                <ul class="cat-menu">
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                    <li class="cat-menu__item"><a class="cat-menu__link"
+                                            href="./category.html">Подкатегория</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="filter">
+                            <div class="filter__head">Фильтр товаров
+                                <div class="icon-left"></div>
+                            </div>
+                            <div class="filter__content">
+                                <div class="filter__body">
+                                    <div class="filter__item filter-param">
+                                        <div class="filter-param__title">Комплектность</div>
+                                        <div class="param-list">
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">Куртка +
+                                                    полукомбинезон</span>
+                                            </label>
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">Куртка +
+                                                    брюки</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__item filter-param">
+                                        <div class="filter-param__title">Материал</div>
+                                        <div class="param-list">
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">100%
+                                                    ПЭ</span>
+                                            </label>
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">80% ПЭ, 20%
+                                                    хб</span>
+                                            </label>
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">67% ПЭ, 33%
+                                                    хб</span>
+                                            </label>
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">50% хб, 50%
+                                                    ПЭ</span>
+                                            </label>
+                                            <label class="el-param">
+                                                <input type="checkbox" name="komplect"><span class="label">100%
+                                                    хб</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__item filter-param">
+                                        <div class="filter-param__title">Цвет</div>
+                                        <div class="colors-list">
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#000;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#0b521f;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#01296c;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#383bb8;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#1818e6;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#de2929;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#fbaa1c;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#aeaeae;"></span>
+                                            </label>
+                                            <label class="el-color">
+                                                <input type="checkbox" name="color"><span class="label"
+                                                    style="background-color:#474747;"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__item filter-param">
+                                        <div class="filter-param__title">Стоимость, ₽</div>
+                                        <div class="filter-price">
+                                            <div class="el-price">
+                                                <label>от</label>
+                                                <input class="min" type="text" placeholder="1440 руб">
+                                            </div>
+                                            <div class="el-price">
+                                                <label>до</label>
+                                                <input class="max" type="text" placeholder="7530 руб">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter__footer">
+                                    <div class="filter-results">Подобрано 12 товаров</div><a class="add-to-basket"
+                                        href="#">Показать товары</a>
+                                    <div class="filter-remove">Сбросить фильтр ✖</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content__right">
+                    <div class="crumbs"><a class="crumbs__prev" href="./">Главная</a><a class="crumbs__prev"
+                            href="./">Каталог</a><a class="crumbs__prev" href="./category.html">Спецодежда</a><a
+                            class="crumbs__prev" href="./category.html">Спецодежда зимняя</a><a class="crumbs__prev"
+                            href="./category.html">Костюмы зимние</a><span class="crumbs__cur">Костюм зимний Партнер
+                            NEW, серый/красный</span></div>
+                    <div class="product-card">
+                        <div class="product-card__head">
+                            <div class="product-card__photo">
+                                <div class="product-card__title for-responsive">Костюм зимний Партнер NEW, серый/красный
+                                </div>
+                                <ul class="product-photo-slider popup-gallery"><a class="product-photo-slider-item"
+                                        href="img/product-pic.jpg"><img src="img/product-image.jpg" alt=""></a><a
+                                        class="product-photo-slider-item" href="img/product-pic.jpg"><img
+                                            src="img/product-image.jpg" alt=""></a><a class="product-photo-slider-item"
+                                        href="img/product-pic.jpg"><img src="img/product-image.jpg" alt=""></a><a
+                                        class="product-photo-slider-item" href="img/product-pic.jpg"><img
+                                            src="img/product-image.jpg" alt=""></a><a class="product-photo-slider-item"
+                                        href="img/product-pic.jpg"><img src="img/product-image.jpg" alt=""></a></ul>
+                                <div class="product-photo-slider-nav">
+                                    <div class="product-photo-slider-nav-item">
+                                        <div class="bordered-blck"><img src="img/product-small-image.jpg" alt=""></div>
+                                    </div>
+                                    <div class="product-photo-slider-nav-item">
+                                        <div class="bordered-blck"><img src="img/product-small-image.jpg" alt=""></div>
+                                    </div>
+                                    <div class="product-photo-slider-nav-item">
+                                        <div class="bordered-blck"><img src="img/product-small-image.jpg" alt=""></div>
+                                    </div>
+                                    <div class="product-photo-slider-nav-item">
+                                        <div class="bordered-blck"><img src="img/product-small-image.jpg" alt=""></div>
+                                    </div>
+                                    <div class="product-photo-slider-nav-item">
+                                        <div class="bordered-blck"><img src="img/product-small-image.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card__info">
+                                <div class="product-title">Костюм зимний Партнер NEW, серый/красный</div>
+                                <div class="product-info">
+                                    <div class="product-info__item">
+                                        <div class="caption">Артикул:</div>
+                                        <div class="value articule">87469198</div>
+                                    </div>
+                                    <div class="product-info__item">
+                                        <div class="caption">Цена оптовая:</div>
+                                        <div class="value price">2400 <span>руб.</span></div>
+                                    </div>
+                                    <div class="product-info__item">
+                                        <div class="caption">Цена розничная:</div>
+                                        <div class="value price">2850 <span>руб.</span></div>
+                                        <div class="notice">* минимальный размер оптового заказа - 20 000 руб</div>
+                                    </div>
+                                </div>
+                                <button class="add-to-basket">Добавить в корзину</button>
+                            </div>
+                        </div>
+                        <div class="product-card__description">
+                            <div class="desc-title">Описание товара</div>
+                            <div class="desc-body"><span>КУРТКА</span>
+                                <ul>
+                                    <li>центральная супатная застежка на петли и пуговицы </li>
+                                    <li>воротник утепленный из искусственного меха</li>
+                                    <li>регулируемый съемный утепленный капюшон</li>
+                                    <li>накладные нагрудные и боковые карманы с клапанами на липучке </li>
+                                    <li>регулировка объема по линии талии </li>
+                                    <li>трикотажные манжеты на рукавах </li>
+                                    <li>СОП 50 мм по кокетке</li>
+                                </ul><span>ПОЛУКОМБИНЕЗОН</span>
+                                <ul>
+                                    <li>на регулируемых по длине бретелях </li>
+                                    <li>центральная застежка‐молния </li>
+                                    <li>широкие шлевки под ремень</li>
+                                    <li>боковые карманы с наклонным входом </li>
+                                    <li>СОП 50 мм по низу брюк</li>
+                                </ul><span>КОМПЛЕКТНОСТЬ</span>
+                                <ul>
+                                    <li>куртка, полукомбинезон</li>
+                                </ul><span>УТЕПЛИТЕЛЬ</span>
+                                <ul>
+                                    <li>синтепон 120г/м2: спинка и полочки 3сл., рукава и брюки 2сл., капюшон 1сл.</li>
+                                </ul><span>ОСНОВНОЙ МАТЕРИАЛ</span>
+                                <ul>
+                                    <li>смесовая, 210 гр/м2, ВО‐пропитка</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__wrap container">
+            <div class="footer__left"><a class="footer__logo" href="./"><img src="img/logо.png" alt=""></a>
+                <div class="footer__copyrights">MOiSiZ. Все права защищены, 2019</div><a class="footer__policy"
+                    href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__middle">
+                <ul class="footer__left-menu f-menu">
+                    <li class="f-menu__item"><a class="f-menu__link" href="./">Главная</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./catalog.html">Каталог</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./about-company.html">О нас</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./payment.html">Оплата и доставка</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./contacts.html">Контакты</a></li>
+                </ul>
+                <ul class="footer__right-menu f-menu">
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">Спецодежда</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">Спецобувь</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">СИЗ</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">Защита рук</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link"
+                            href="./category.html">Хозтовары/Инвентарь/Мебель</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">Текстиль/Мягкий
+                            инвентарь</a></li>
+                    <li class="f-menu__item"><a class="f-menu__link" href="./category.html">Распродажа</a></li>
+                </ul>
+            </div>
+            <div class="footer__right contacts-info">
+                <div class="title">Контакты</div>
+                <div class="contacts-info__item">пн-пт 9:00-19:00</div><a class="contacts-info__link"
+                    href="mailto:info@moisiz.ru">info@moisiz.ru</a><a class="contacts-info__link"
+                    href="tel:+74951234567">+7 (495) 123-45-67</a>
+            </div>
+        </div>
+        <div class="footer__bottom container">
+            <div class="developers">Создание сайта — <a href="#" target="_blank">X5-MEDIA</a></div>
+        </div>
+    </div>
+    <div class="hidden">
+        <div class="modal-window" id="make-order">
+            <div class="modal-window__content">
+                <div class="connect-block">
+                    <div class="connect-block__title">Заполните форму для оформления заказа</div>
+                    <form class="f-connect">
+                        <div class="f-connect__col">
+                            <input class="f-connect__input" type="text" placeholder="Имя">
+                            <input class="f-connect__input" type="tel" placeholder="Телефон" id="phone2">
+                        </div>
+                        <div class="f-connect__col">
+                            <input class="f-connect__input" type="mail" placeholder="Email">
+                            <button class="f-connect__send" type="submit">Отправить</button>
+                        </div>
+                        <div class="f-connect__colfull">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">
+                                        Нажимая на кнопку "ОТПРАВИТЬ", вы соглашаетесь с <a class="popup"
+                                            href="#politica">Политикой в отношении обработки персональных
+                                            данных.</a></span></span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+        <div class="modal-window" id="politica">
+            <div class="modal-window__content">
+                <div class="connect-block">
+                    <div class="connect-block__title">Политика конфиденциальности</div>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+        <div class="modal-thanks" id="thanks-for-order">
+            <div class="modal-thanks__content">
+                <div class="connect-block">
+                    <div class="connect-block__title">Спасибо за заказ!</div>
+                    <div class="connect-block__desc">В ближайшее время наш менеджер свяжется с вами.</div>
+                </div>
+            </div>
+            <div class="modal-thanks__close popup-close"></div>
+        </div>
+        <div class="modal-window" id="call-back">
+            <div class="modal-window__content">
+                <div class="connect-block">
+                    <div class="connect-block__title">Оставьте свой номер телефона, и наш менеджер<br>свяжется с вами
+                    </div>
+                    <form class="f-connect">
+                        <div class="f-connect__col">
+                            <input class="f-connect__input" type="tel" placeholder="Телефон" id="phone3">
+                        </div>
+                        <div class="f-connect__col">
+                            <button class="f-connect__send" type="submit">Отправить</button>
+                        </div>
+                        <div class="f-connect__colfull">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">
+                                        Нажимая на кнопку "ОТПРАВИТЬ", вы соглашаетесь с <a class="popup"
+                                            href="#politica">Политикой в отношении обработки персональных
+                                            данных.</a></span></span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+        <div class="modal-window" id="tenders">
+            <div class="modal-window__content">
+                <div class="connect-block">
+                    <div class="connect-block__title">Остались вопросы? Заполните форму</div>
+                    <form class="f-connect">
+                        <div class="f-connect__col">
+                            <input class="f-connect__input" type="text" placeholder="Имя">
+                            <input class="f-connect__input" type="tel" placeholder="Телефон" id="phone4">
+                        </div>
+                        <div class="f-connect__col">
+                            <input class="f-connect__input" type="mail" placeholder="Email">
+                            <button class="f-connect__send" type="submit">Отправить</button>
+                        </div>
+                        <div class="f-connect__colfull">
+                            <label class="c-check">
+                                <input type="checkbox"><span class="c-check__body"><span
+                                        class="c-check__box"></span><span class="c-check__label">
+                                        Нажимая на кнопку "ОТПРАВИТЬ", вы соглашаетесь с <a class="popup"
+                                            href="#politica">Политикой в отношении обработки персональных
+                                            данных.</a></span></span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-window__close popup-close"></div>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/zoomsl-3.0.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1?lang=ru_RU&amp;apikey=469a3943-0460-4141-affa-a436c93a5a8d"></script>
+</body>
+
+</html>
